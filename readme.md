@@ -1,0 +1,2 @@
+In this project I have to create a Resturant webpage focusing on the use of classes and and npm modules such as webpack to organize the code. 
+Also all DOM elements will be created using JavaScript while styling will be done in a CSS file as usual.
