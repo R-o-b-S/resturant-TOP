@@ -1,0 +1,66 @@
+html {
+    --color1: #6B3E2E;
+    --color2: #F6C65B;
+    --color3: #FAF7F2;
+    --color4: #2A2522;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(.5);
+    z-index: -1;
+}
+
+#magna {
+    display: flex;
+    flex-direction: row;
+    color: var(--color3);
+}
+
+#magna > p {
+    font-size: 1rem;
+    margin: 0;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+#logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+header {
+    
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.navMenu {
+    background-color: transparent;
+    padding: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color3);
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    font-size: 0.9rem;
+}
