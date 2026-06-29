@@ -1,7 +1,7 @@
 import "./styles.css";
-import "./home.js";
+import { buildHome } from "./home.js";
 
-console.log ("test");
+buildHome();
 
 function clearContent () {
     const myNode = document.getElementById("content");
@@ -10,4 +10,9 @@ function clearContent () {
     } 
 }
 
-document.getElementById("menu").onclick = clearContent;
+function pressHome () {
+    clearContent();
+    buildHome();
+}
+
+document.getElementById("home").onclick = pressHome;

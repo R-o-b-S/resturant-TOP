@@ -1,7 +1,7 @@
 import "./home.css";
 
 
-function buildHome () {
+export function buildHome () {
     const div = document.createElement("div");
     div.id = "homeC";
     document.getElementById("content").appendChild(div);
@@ -25,4 +25,3 @@ function buildHome () {
     document.getElementById("homeC").appendChild(div4);
 }
 
-buildHome ();
