@@ -1,0 +1,26 @@
+#content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+#magnaName {
+    font-family: Special;
+    font-size: 3rem;
+    color: var(--color3);
+    text-align: center;
+}
+
+#catch {
+    font-size: 1.5rem;
+    color: var(--color3);
+    text-align: center;
+}
+
+#smallerCatch {
+    font-size: 1rem;
+    color: var(--color3);
+    text-align: center;
+}

@@ -5,6 +5,11 @@ html {
     --color4: #2A2522;
 }
 
+@font-face {
+  font-family: Special;
+  src: url("../font/BlackOpsOne-Regular.ttf");
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -20,18 +25,18 @@ body {
     z-index: -1;
 }
 
-#magna {
+#magnaLogo {
     display: flex;
     flex-direction: row;
     color: var(--color3);
 }
 
-#magna > p {
+#magnaLogo > p {
     font-size: 1rem;
     margin: 0;
     justify-self: center;
     align-self: center;
-    font-weight: bold;
+    font-family: Special;
 }
 
 #logo {
