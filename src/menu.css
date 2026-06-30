@@ -1,0 +1,43 @@
+#menuC {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.dish {
+    height: 30vh;
+    width: 20vw;
+    margin: 1.5rem;
+    border-radius: 12px;
+    border: solid 1px;
+    border-color: var(--color3);
+    justify-content: center;
+    align-content: center;
+    color: var(--color3);
+    text-align: center;
+}
+
+.dish > p {
+    margin: 0;
+}
+
+#carboDish {
+    height: auto;
+    width: 20vw;
+}
+
+#paperaDish {
+    height: auto;
+    width: 20vw;
+}
+
+#fumeDish {
+    height: auto;
+    width: 20vw;
+}
+
+#disclaimer {
+    text-align: center;
+    color: var(--color3);
+}
